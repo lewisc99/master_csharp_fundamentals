@@ -2,7 +2,6 @@
 
 namespace AnonymousMethods
 {
-
   class Program
   {
     delegate void MessagePrinter();
