@@ -15,7 +15,7 @@ namespace AnonymousMethods
       NotifyUser("Battery low", delegate
       {
         // The anonymous method does not return anything (void)
-        Console.WriteLine("Notification received");
+        Console.WriteLine("Hard-coded notification");
       });
 
       // another example - with parameter
