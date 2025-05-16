@@ -1,11 +1,10 @@
-﻿using System;
-using Delegates.Entities.V1;
+﻿using Delegates.Entities.V1;
 
 namespace Delegates.program
 {
     class Program
     {
-        static void Main(string[] args)
+        static void MainV1(string[] args)
         {
             var footballMatch = new FootballMatch("Barcelona", "Real Madrid");
 
