@@ -23,5 +23,10 @@ foreach (var note in notes)
   Console.WriteLine(note);
 }
 
+for (int i = 0; i < notes.Count; i++)
+{
+  Console.WriteLine(notes[i]);
+}
+
 // Count the number of notes
 Console.WriteLine(notes.Count);
