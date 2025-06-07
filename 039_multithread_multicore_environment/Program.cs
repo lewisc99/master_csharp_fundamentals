@@ -19,7 +19,7 @@ static void DoWork(int threadNumber)
 {
   for (int i = 1; i <= 3; i++)
   {
-    Console.WriteLine($"Thread {threadNumber} is working on iteration {i}...");
+    Console.WriteLine($"Thread {threadNumber} is working on iteration {i} at {DateTime.Now:HH:mm:ss.fff}");
     Thread.Sleep(1000); // Simulate work by sleeping for 1 second
   }
 
